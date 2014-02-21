@@ -1,0 +1,45 @@
+﻿Build started 2/19/2014 11:55:08 PM.
+     1>Project "D:\Dropbox\Stevens\CS 539 - Real-time rendering\HW1\HW1\HW1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\programs\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\HW1.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CApp_OnInit.cpp CApp_OnRender.cpp
+         CApp_OnRender.cpp
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\angel.h(67): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\mat.h(743): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\sdl2-2.0.1\include\sdl_opengl.h(36): warning C4005: 'WIN32_LEAN_AND_MEAN' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\um\gl\freeglut_std.h(58) : see previous definition of 'WIN32_LEAN_AND_MEAN'
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\capp_onrender.cpp(30): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\capp_onrender.cpp(31): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+         CApp_OnInit.cpp
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\angel.h(67): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\hw1\hw1\mat.h(743): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\dropbox\stevens\cs 539 - real-time rendering\sdl2-2.0.1\include\sdl_opengl.h(36): warning C4005: 'WIN32_LEAN_AND_MEAN' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\um\gl\freeglut_std.h(58) : see previous definition of 'WIN32_LEAN_AND_MEAN'
+         Generating Code...
+       Link:
+         D:\programs\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dropbox\Stevens\CS 539 - Real-time rendering\HW1\Debug\HW1.exe" /INCREMENTAL /NOLOGO glew32.lib freeglut.lib SDL2main.lib SDL2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Dropbox\Stevens\CS 539 - Real-time rendering\HW1\Debug\HW1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dropbox\Stevens\CS 539 - Real-time rendering\HW1\Debug\HW1.lib" /MACHINE:X86 Debug\Capp.obj
+         Debug\CApp_OnCleanup.obj
+         Debug\CApp_OnEvent.obj
+         Debug\CApp_OnInit.obj
+         Debug\CApp_OnLoop.obj
+         Debug\CApp_OnRender.obj
+         Debug\glm.obj
+         Debug\InitShader.obj
+         Debug\stdafx.obj
+         HW1.vcxproj -> D:\Dropbox\Stevens\CS 539 - Real-time rendering\HW1\Debug\HW1.exe
+     1>Done Building Project "D:\Dropbox\Stevens\CS 539 - Real-time rendering\HW1\HW1\HW1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.56

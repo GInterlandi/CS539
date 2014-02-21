@@ -1,0 +1,109 @@
+﻿Build started 2/20/2014 12:12:03 AM.
+     1>Project "C:\Users\Guilherme\Documents\Visual Studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\programs\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\programs\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt example2TM.cpp glm.cpp InitShader.cpp
+         InitShader.cpp
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\angel.h(66): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(581): warning C4127: conditional expression is constant
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(743): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(771): warning C4127: conditional expression is constant
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(778): warning C4127: conditional expression is constant
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(785): warning C4127: conditional expression is constant
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(793): warning C4127: conditional expression is constant
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\checkerror.h(37): warning C4505: '_CheckError' : unreferenced local function has been removed
+         glm.cpp
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\angel.h(66): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(581): warning C4127: conditional expression is constant
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(743): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(771): warning C4127: conditional expression is constant
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(778): warning C4127: conditional expression is constant
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(785): warning C4127: conditional expression is constant
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(793): warning C4127: conditional expression is constant
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(314): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(315): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(316): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(318): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(319): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(320): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(819): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(820): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(821): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(824): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(1024): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(1181): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(1187): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(1188): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(1246): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(1251): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(1253): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(1256): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(1257): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(1945): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\glm.cpp(1964): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\checkerror.h(37): warning C4505: '_CheckError' : unreferenced local function has been removed
+         example2TM.cpp
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\angel.h(66): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(581): warning C4127: conditional expression is constant
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(743): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(771): warning C4127: conditional expression is constant
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(778): warning C4127: conditional expression is constant
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(785): warning C4127: conditional expression is constant
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mat.h(793): warning C4127: conditional expression is constant
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(108): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(109): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(110): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(312): warning C4100: 'y' : unreferenced formal parameter
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(312): warning C4100: 'x' : unreferenced formal parameter
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(312): warning C4100: 'state' : unreferenced formal parameter
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(312): warning C4100: 'button' : unreferenced formal parameter
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(332): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(337): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(342): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(347): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(352): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(357): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(363): warning C4244: 'argument' : conversion from 'double' to 'const GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(375): warning C4244: 'argument' : conversion from 'double' to 'const GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(386): warning C4244: 'argument' : conversion from 'double' to 'const GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(397): warning C4244: 'argument' : conversion from 'double' to 'const GLfloat', possible loss of data
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(326): warning C4189: 'dir' : local variable is initialized but not referenced
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(418): warning C4100: 'mousey' : unreferenced formal parameter
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(418): warning C4100: 'mousex' : unreferenced formal parameter
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(488): warning C4100: 'y' : unreferenced formal parameter
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(488): warning C4100: 'x' : unreferenced formal parameter
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(592): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(593): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\example2tm.cpp(610): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\guilherme\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\checkerror.h(37): warning C4505: '_CheckError' : unreferenced local function has been removed
+         Generating Code...
+       Link:
+         D:\programs\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Guilherme\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\programs\Assimp\include\assimp\Compiler glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Guilherme\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Guilherme\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\example2TM.obj
+         Debug\glm.obj
+         Debug\InitShader.obj
+         Debug\stdafx.obj
+         ConsoleApplication1.vcxproj -> C:\Users\Guilherme\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Debug\ConsoleApplication1.exe
+     1>Done Building Project "C:\Users\Guilherme\Documents\Visual Studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.28
